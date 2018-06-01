@@ -1,0 +1,14 @@
+﻿//Create Date = 09.04.2018
+
+Insert İşlemlerini Stored Procedure Kullan ve SQL Injection Güvenlik Açığı Kapat.
+Veri Boyutu Büyüdükçe Stack Tabanlı Hafıza Taşma Açıkları Olacaktır Yaklaşık 4-5 Milyon Data'dan Sonra Bu Güvenlik Açığı Baş Gösterecek! //Şuan Yapılacak Bir Şey Yok
+Sunucu Tepkime Sürelerini Düşürmek İçin Index Clustered Scan Kavramlarını Oluştur
+ 
+ 20.04.2018
+
+ Çok Fazla Static Değişken Kullandım Bellek Kullanımı Etkilenmedi!
+
+ 
+Idare Paneli İçin Program Yöneticileri ile Haberleşebilecekleri Bir Destek Menüsü Eklenebilir!
+
+

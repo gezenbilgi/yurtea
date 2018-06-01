@@ -1,0 +1,7 @@
+﻿
+//Create Date = 10.04.2018
+
+CREATE PROC sp_YurtKontrol
+@AD AS VARCHAR(100)
+AS
+SELECT * FROM dbo.Yurtlar as YRT WHERE YRT.ad=@AD

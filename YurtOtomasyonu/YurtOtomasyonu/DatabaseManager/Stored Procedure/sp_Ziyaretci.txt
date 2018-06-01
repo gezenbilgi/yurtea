@@ -1,0 +1,8 @@
+﻿CREATE PROC sp_Ziyaretci
+@ID AS INT,
+@AD AS VARCHAR(50),
+@OGR AS VARCHAR(50),
+@TC AS VARCHAR(11),
+@TARIH AS VARCHAR(50)
+AS
+INSERT INTO dbo.Ziyaretciler(yurtId,ziyaretciAd,adSoyad,öğrenciTc,tarih,sil) VALUES(@ID,@AD,@OGR,@TC,@TARIH,'HAYIR')

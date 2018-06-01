@@ -1,0 +1,9 @@
+﻿//Create Date=09.04.2018
+
+USE YurtOtomasyonu;
+
+ALTER PROC sp_RegıonYurt
+@Il as VARCHAR(100),
+@ILCE as VARCHAR(100)
+AS 
+SELECT * FROM dbo.Yurtlar AS YRT WHERE YRT.ILCE LIKE @IL and YRT.ILCE LIKE @ILCE

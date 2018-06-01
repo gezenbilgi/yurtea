@@ -1,0 +1,20 @@
+﻿
+//CREATE DATE=10.04.2018
+
+CREATE PROC sp_AddYurt
+@AD AS VARCHAR(100),
+@İL AS VARCHAR(50),
+@İLCE AS VARCHAR(50),
+@AİDAT AS INT,
+@ODA_SAY AS INT,
+@YATAK_SAY AS INT,
+@OGR_SAY AS INT,
+@KAP_SAY AS INT,
+@TEL AS VARCHAR(20),
+@AKTIF AS VARCHAR(5),
+@SİL AS VARCHAR(5)
+AS
+INSERT INTO dbo.Yurtlar(ad,il,ilce,aidat,odaSayisi,yatakSayisi,ogrenciSayisi,kapasite,tel,aktif,sil) VALUES(@AD,@İL,@İLCE,@AİDAT,@ODA_SAY,@YATAK_SAY,@OGR_SAY,@KAP_SAY,@TEL,@AKTIF,@SİL)
+
+
+SQL INJECTION FİX

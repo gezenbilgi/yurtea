@@ -1,0 +1,12 @@
+﻿
+//Create Date=10.04.18
+
+use YurtOtomasyonu;
+
+CREATE PROC login_Ogr
+@TC AS VARCHAR(11)
+AS 
+SELECT * FROM dbo.Ögrenciler WHERE tc=@TC and aktif='EVET'
+
+
+SQL INJECTION 1 ONARILDI

@@ -1,0 +1,6 @@
+﻿// CREATE DATE = 09.04.2018
+use YurtOtomasyonu;
+
+ALTER PROC sp_AllYurt
+AS
+SELECT YRT.ad,YRT.il,YRT.ilce,YRT.aidat,YRT.odaSayisi,YRT.yatakSayisi,YRT.ogrenciSayisi,YRT.kapasite,YRT.tel FROM dbo.Yurtlar AS YRT

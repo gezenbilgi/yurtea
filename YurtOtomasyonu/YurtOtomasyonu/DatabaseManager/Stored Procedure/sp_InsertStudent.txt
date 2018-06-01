@@ -1,0 +1,15 @@
+﻿CREATE PROC sp_InsertStudent
+@resim as VARBINARY(MAX),
+@tc AS VARCHAR(11),
+@adsoyad as VARCHAR(75),
+@tel as VARCHAR(75),
+@DT as Date,
+@KAN AS VARCHAR(50),
+@ANNE AS VARCHAR(50),
+@BABA AS VARCHAR(50),
+@CINS AS VARCHAR(50),
+@ID AS INT
+as 
+INSERT INTO dbo.Ögrenciler(resim,tc,adSoyad,telefon,dogumTarihi,kanGrubu,anneAdı,babaAdı,cinsiyet,yurtId,odaNo,yatakNo,aktif)
+VALUES
+(@resim,@tc,@adsoyad,@tel,@DT,@KAN,@ANNE,@BABA,@CINS,@ID,'0','0','EVET')

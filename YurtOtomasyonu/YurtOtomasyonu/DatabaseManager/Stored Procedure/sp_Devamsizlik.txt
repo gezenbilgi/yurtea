@@ -1,0 +1,8 @@
+﻿CREATE PROC sp_Devamsizlik
+@ID AS INT,
+@TC AS VARCHAR(11),
+@TARİH AS VARCHAR(50),
+@YIL AS VARCHAR(50)
+AS
+INSERT INTO DBO.Devamsizlik(yurtId,ogrenciTc,devamsizlikTarihi,devamsizlikYili,sil)
+VALUES(@ID,@TC,@TARİH,@YIL,'HAYIR')
